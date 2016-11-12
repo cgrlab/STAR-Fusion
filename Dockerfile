@@ -1,4 +1,4 @@
-FROM cgrlab/STAR
+FROM cgrlab/star
 
 RUN apt-get update && apt-get install -y \ 
                 gcc \
