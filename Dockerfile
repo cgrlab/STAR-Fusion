@@ -42,8 +42,8 @@ RUN git clone --recursive https://github.com/FusionInspector/FusionInspector.git
 
 # Install
 
-COPY PerlLib /usr/local/src
+COPY PerlLib /usr/local/src/
 
 ENV PERL5LIB /usr/local/src:${PERL5LIB}
 
-COPY util/*.pl /usr/local/bin
+COPY util/*.pl /usr/local/bin/
